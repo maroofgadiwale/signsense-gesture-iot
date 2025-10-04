@@ -1,0 +1,301 @@
+X1,X2,X3,X4,gesture
+139,262,220,61,I want water
+138,267,212,57,I want water
+142,264,61,55,I want water
+151,273,72,60,I want water
+162,286,260,58,I want water
+164,283,281,58,I want water
+162,289,271,64,I want water
+146,277,254,59,I want water
+179,290,267,66,I want water
+158,280,272,45,I want water
+184,279,271,58,I want water
+152,220,213,60,I want water
+169,275,226,76,I want water
+176,271,226,77,I want water
+172,278,250,76,I want water
+181,270,244,64,I want water
+188,280,254,78,I want water
+203,288,255,82,I want water
+187,280,267,79,I want water
+184,283,261,72,I want water
+189,287,245,77,I want water
+188,279,249,80,I want water
+208,289,262,81,I want water
+183,283,264,74,I want water
+174,276,272,83,I want water
+193,288,279,73,I want water
+178,275,270,84,I want water
+187,275,250,87,I want water
+182,277,266,85,I want water
+189,237,221,77,I want water
+80,222,265,39,I want food
+84,259,294,52,I want food
+92,222,264,50,I want food
+101,245,280,49,I want food
+90,245,284,57,I want food
+91,234,277,55,I want food
+89,263,306,48,I want food
+93,237,306,51,I want food
+91,248,296,46,I want food
+90,267,306,49,I want food
+80,243,305,53,I want food
+82,263,310,62,I want food
+81,269,316,66,I want food
+81,245,315,52,I want food
+82,268,314,63,I want food
+77,260,318,55,I want food
+78,255,312,55,I want food
+81,271,325,52,I want food
+83,257,323,60,I want food
+86,273,329,62,I want food
+86,283,330,59,I want food
+86,268,326,62,I want food
+82,268,320,63,I want food
+83,303,325,60,I want food
+84,298,328,59,I want food
+85,310,324,62,I want food
+85,298,323,59,I want food
+81,303,319,57,I want food
+82,300,329,55,I want food
+79,293,324,48,I want food
+49,163,301,9,I need medicines
+52,181,295,11,I need medicines
+53,180,314,12,I need medicines
+53,184,341,13,I need medicines
+54,184,351,14,I need medicines
+54,181,339,12,I need medicines
+55,188,340,13,I need medicines
+55,186,355,13,I need medicines
+55,181,306,12,I need medicines
+54,180,344,14,I need medicines
+51,171,273,8,I need medicines
+84,207,265,62,I need medicines
+52,184,264,8,I need medicines
+58,195,300,14,I need medicines
+55,197,317,13,I need medicines
+95,215,280,51,I need medicines
+70,214,281,27,I need medicines
+47,193,313,10,I need medicines
+48,197,325,18,I need medicines
+41,113,15,3,I need medicines
+77,156,396,40,I need medicines
+80,164,410,42,I need medicines
+78,160,375,43,I need medicines
+76,140,360,37,I need medicines
+79,146,377,40,I need medicines
+80,147,388,42,I need medicines
+79,145,381,40,I need medicines
+78,143,376,39,I need medicines
+79,140,379,40,I need medicines
+78,142,360,38,I need medicines
+129,239,274,90,I want to go to washroom
+110,251,288,42,I want to go to washroom
+147,266,299,64,I want to go to washroom
+129,265,304,101,I want to go to washroom
+139,241,278,109,I want to go to washroom
+133,245,281,137,I want to go to washroom
+138,275,313,142,I want to go to washroom
+151,255,288,158,I want to go to washroom
+147,289,331,168,I want to go to washroom
+161,295,325,79,I want to go to washroom
+142,274,314,135,I want to go to washroom
+133,264,301,54,I want to go to washroom
+132,256,287,54,I want to go to washroom
+127,243,280,125,I want to go to washroom
+117,274,318,128,I want to go to washroom
+150,236,252,114,I want to go to washroom
+138,247,284,159,I want to go to washroom
+167,275,303,100,I want to go to washroom
+169,251,269,115,I want to go to washroom
+140,267,312,125,I want to go to washroom
+158,249,273,107,I want to go to washroom
+180,265,291,121,I want to go to washroom
+162,282,317,93,I want to go to washroom
+158,247,266,92,I want to go to washroom
+149,257,304,100,I want to go to washroom
+150,267,309,133,I want to go to washroom
+175,251,272,137,I want to go to washroom
+180,261,292,117,I want to go to washroom
+159,241,264,109,I want to go to washroom
+157,250,277,120,I want to go to washroom
+244,244,42,2,I need help
+190,217,32,2,I need help
+267,262,51,2,I need help
+216,228,36,1,I need help
+246,245,40,1,I need help
+241,243,40,1,I need help
+25,121,19,1,I need help
+267,255,24,4,I need help
+302,280,26,3,I need help
+307,283,46,3,I need help
+284,269,32,3,I need help
+234,238,21,2,I need help
+252,249,23,3,I need help
+256,252,25,3,I need help
+229,234,29,3,I need help
+242,243,39,3,I need help
+205,221,40,2,I need help
+220,229,20,2,I need help
+217,225,24,2,I need help
+211,223,28,3,I need help
+219,228,33,2,I need help
+228,234,22,4,I need help
+213,225,46,3,I need help
+224,230,35,2,I need help
+225,231,19,2,I need help
+232,236,21,2,I need help
+228,233,21,2,I need help
+223,229,20,2,I need help
+223,230,23,3,I need help
+229,234,22,4,I need help
+47,133,255,81,I am okay
+80,148,200,106,I am okay
+61,141,243,116,I am okay
+54,137,233,115,I am okay
+51,135,236,111,I am okay
+53,135,202,104,I am okay
+49,135,219,109,I am okay
+37,127,174,107,I am okay
+46,130,216,107,I am okay
+51,135,246,112,I am okay
+52,136,247,114,I am okay
+48,133,258,115,I am okay
+42,131,255,125,I am okay
+49,135,255,121,I am okay
+47,134,275,119,I am okay
+47,133,262,125,I am okay
+37,128,206,100,I am okay
+53,137,259,91,I am okay
+54,137,281,91,I am okay
+56,138,286,105,I am okay
+50,137,319,114,I am okay
+49,135,332,115,I am okay
+48,135,321,118,I am okay
+48,135,299,111,I am okay
+52,134,191,115,I am okay
+65,142,286,127,I am okay
+66,144,280,122,I am okay
+55,137,273,124,I am okay
+60,140,285,122,I am okay
+66,144,306,123,I am okay
+208,221,208,88,Remove Glove
+114,163,144,80,Remove Glove
+107,158,190,84,Remove Glove
+123,170,181,28,Remove Glove
+104,157,109,30,Remove Glove
+120,167,119,70,Remove Glove
+143,173,118,98,Remove Glove
+49,125,80,20,Remove Glove
+151,184,140,89,Remove Glove
+170,199,206,101,Remove Glove
+166,194,148,103,Remove Glove
+166,197,205,107,Remove Glove
+162,193,173,106,Remove Glove
+164,195,175,105,Remove Glove
+166,196,185,108,Remove Glove
+170,198,198,107,Remove Glove
+165,195,195,107,Remove Glove
+163,194,194,105,Remove Glove
+167,197,197,107,Remove Glove
+167,197,185,107,Remove Glove
+171,199,204,99,Remove Glove
+164,194,161,98,Remove Glove
+163,194,176,111,Remove Glove
+166,195,173,113,Remove Glove
+161,193,187,110,Remove Glove
+166,196,163,104,Remove Glove
+171,199,188,114,Remove Glove
+173,200,188,109,Remove Glove
+173,200,178,109,Remove Glove
+176,202,185,116,Remove Glove
+40,130,287,8,Thank you
+37,125,329,4,Thank you
+37,126,301,26,Thank you
+44,130,345,12,Thank you
+44,129,340,7,Thank you
+45,132,363,14,Thank you
+40,128,345,7,Thank you
+43,130,368,5,Thank you
+46,131,333,13,Thank you
+45,130,349,17,Thank you
+41,127,341,6,Thank you
+41,128,328,12,Thank you
+40,127,328,13,Thank you
+41,125,314,6,Thank you
+42,128,337,7,Thank you
+42,128,329,8,Thank you
+43,127,336,6,Thank you
+43,129,355,8,Thank you
+44,130,358,8,Thank you
+45,128,352,7,Thank you
+46,130,354,8,Thank you
+46,131,361,7,Thank you
+46,130,367,8,Thank you
+44,125,308,10,Thank you
+46,128,336,15,Thank you
+45,129,345,9,Thank you
+46,127,335,16,Thank you
+46,128,348,16,Thank you
+47,130,347,10,Thank you
+47,129,363,15,Thank you
+45,127,263,39,I can't breathe
+36,112,188,24,I can't breathe
+51,125,253,91,I can't breathe
+42,119,267,50,I can't breathe
+39,114,232,57,I can't breathe
+38,116,271,99,I can't breathe
+48,122,289,38,I can't breathe
+38,115,239,42,I can't breathe
+40,114,159,95,I can't breathe
+37,113,211,28,I can't breathe
+36,112,183,98,I can't breathe
+38,115,215,96,I can't breathe
+39,116,236,118,I can't breathe
+40,116,231,115,I can't breathe
+38,116,231,111,I can't breathe
+37,116,219,105,I can't breathe
+38,116,237,117,I can't breathe
+38,116,233,113,I can't breathe
+38,116,235,113,I can't breathe
+39,117,244,110,I can't breathe
+38,117,251,123,I can't breathe
+39,116,252,122,I can't breathe
+39,116,241,121,I can't breathe
+39,116,238,122,I can't breathe
+38,116,235,119,I can't breathe
+36,112,215,123,I can't breathe
+37,114,239,126,I can't breathe
+39,116,242,116,I can't breathe
+39,115,219,106,I can't breathe
+38,113,232,121,I can't breathe
+311,294,365,5,I caught cold
+313,289,377,7,I caught cold
+321,295,395,8,I caught cold
+322,296,365,3,I caught cold
+325,298,383,6,I caught cold
+327,300,404,8,I caught cold
+332,303,399,5,I caught cold
+324,296,343,7,I caught cold
+328,300,379,6,I caught cold
+333,301,384,10,I caught cold
+337,303,320,6,I caught cold
+324,296,329,9,I caught cold
+333,302,368,8,I caught cold
+331,302,383,15,I caught cold
+338,305,381,12,I caught cold
+342,309,360,12,I caught cold
+339,306,394,9,I caught cold
+334,303,388,10,I caught cold
+325,296,375,11,I caught cold
+334,303,400,14,I caught cold
+339,305,368,12,I caught cold
+343,309,376,11,I caught cold
+347,311,395,12,I caught cold
+343,310,392,12,I caught cold
+348,311,401,12,I caught cold
+350,314,377,12,I caught cold
+350,312,386,11,I caught cold
+351,314,383,12,I caught cold
+349,313,392,9,I caught cold
+351,314,387,10,I caught cold

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSense</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- CSS -->
+    <link rel = "stylesheet" href="static/styles.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SignSense Dashboard</h1>
+        </div>
+
+        <div class="control-panel">
+            <a href = "{{url_for('start_now')}}"><button class="btn btn-start" id="startBtn">Start Monitoring</button></a>
+            <a href = "{{url_for('stop_now')}}"><button class="btn btn-stop" id="stopBtn">Stop Monitoring</button></a>
+        </div>
+
+        <div class="section gesture-section">
+            <div class="section-header">Predicted Gesture</div>
+            <div class="section-content">
+                <div class="gesture-text">Waiting for Gesture...</div>
+            </div>
+        </div>
+
+        <div class="section bp-section">
+            <div class="section-header">Beats Per Minute (BPM)</div>
+            <div class="section-content">
+                <div class = "bp-readings" style = "display:flex;justify-content:space-between;">
+                    <div id="bp-rate">Pulse Rate: <span id="current-bp">0</span> BPM</div>
+                    <div class="bp-state">State: <span id="current-state">Waiting</span> </div>
+                </div>
+                <div id="bp-graph"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      const trace = {
+            y: [],
+            type: 'scatter',
+            mode: 'lines+markers',
+            line: { color: '#34d399', width: 2 },
+            marker: { size: 5 }
+        };
+
+        const layout = {
+            title: 'Live BPM Graph',
+            xaxis: { title: 'Time', showgrid: true },
+            yaxis: { title: 'BPM', range: [50, 150], dtick: 10 },
+            margin: { l: 50, r: 30, t: 50, b: 40 }
+        };
+
+        Plotly.newPlot('bp-graph', [trace], layout);
+
+        const socket = io();  // Socket.IO connection
+
+        socket.on('bpm_data', function(bpm) {
+            const yData = trace.y;
+            if (yData.length >= 20) yData.shift();  // keep graph size manageable
+            yData.push(bpm);
+
+            document.getElementById('current-bp').textContent = bpm;
+
+            Plotly.update('bp-graph', { y: [yData] });
+        });
+
+        //Gesture:
+        socket.on('gesture_data', function(gesture) {
+            document.querySelector('.gesture-text').textContent = gesture;
+        });
+
+        //State:
+         socket.on('state_data', function(state) {
+            document.getElementById('current-state').textContent = state;
+        });
+    </script>
+</body>
+</html> 
