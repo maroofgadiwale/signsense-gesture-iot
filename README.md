@@ -1,4 +1,4 @@
-# <center>🧤 SignSense: A Smart Glove for Health Monitoring</center>
+# <center>🧤 SignSense: AI Powered Smart Glove for Health Monitoring</center>
 
 ---
 
